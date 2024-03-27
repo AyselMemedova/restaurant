@@ -382,10 +382,10 @@ transition: all .3s;
 }
 
 .traditional_boxgridcard_top img{
-    /* width: 105%; */
+    
    padding-right: 10px;
     overflow: hidden;
-    /* height: 100%; */
+    
 }
 
 .traditional_boxgridcardtop_absolut{
@@ -412,10 +412,9 @@ transition: all .3s;
     padding: 8px 10px;
     background-color: #000929cc;
     border-radius:6px;
-    font-size: 80%;
+    font-size: 16px;
     color: white;
     font-weight: 700;
-    line-height: 150%;
 }
 
 .traditional_boxgridcard_description{
@@ -423,11 +422,10 @@ transition: all .3s;
 }
 
 .grid_card_price_cost p{
-    font-size: 120%;
+    font-size: 24px;
     color: #f01543;
     font-weight: 800;
-    line-height: 150%;
-    letter-spacing: -1px;
+
 }
 
 .grid_card_price_reytings svg{
@@ -442,9 +440,8 @@ transition: all .3s;
 }
 
 .grid_card_price_reytings p{
-    font-size: 80%;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 150%;
 }
 
 .traditional_boxgridcard_price{
@@ -459,14 +456,9 @@ transition: all .3s;
 }
 
 .traditional_boxgridcard_tittle a{
-    font-size: 120%;
-    text-decoration: none;
+    font-size: 24px;
     color: #000929;
-    font-style: normal;
     font-weight: 700;
-    line-height: 150%;
-    letter-spacing: -.24px;
-    transition: all .3s;
 }
 
 .grid_card_tittle_box{
@@ -480,7 +472,6 @@ transition: all .3s;
 .grid_card_tittle_box p{
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
     color: #4d5461;
 }
 
@@ -515,9 +506,7 @@ transition: all .3s;
     height: 56px;
     padding: 13px 32px;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    letter-spacing: -.1px;
     text-align: center;
     border-radius: 10px;
     background-color: #f01543;
@@ -691,10 +680,9 @@ transition: all .3s;
 
 .popular_itmes_gridcardleft_absolut p{
     color: #fff;
-    font-size: 80%;
+    font-size: 18px;
     font-weight: 600;
     line-height: 150%;
-    letter-spacing: -.16px;
 }
 
 .popular_itmes_gridcardleft_absolut svg{
@@ -702,10 +690,9 @@ transition: all .3s;
 }
 
 .popular_itmes__top h2{
-    font-size: 240%;
+    font-size: 48px;
     font-weight: 700;
     line-height: 140%;
-    letter-spacing: -.48px;
     color: #000929;
     padding-left: 12px;
 }
@@ -716,12 +703,11 @@ transition: all .3s;
 }
 
 .popular_itmes_gridcardright_tittle a{
-    font-size: 120%;
+    font-size: 24px;
     color: #000929;
     text-decoration: none;
     font-weight: 700;
     line-height: 150%;
-    letter-spacing: -.24px;
 }
 
 .popular_itmes_gridcardrighttittle .gridcard_tittle_box:nth-child(3){
@@ -738,10 +724,9 @@ transition: all .3s;
 }
 
 .popular_itmes_gridcardright_price p{
-    font-size: 120%;
+    font-size: 24px;
     font-weight: 800;
     line-height: 150%;
-    letter-spacing: -1px;
     color: #000929;
 }
 
@@ -757,7 +742,6 @@ transition: all .3s;
     border: 1.5px solid rgba(211, 213, 218, .5);
     color: #6c727f;
     padding: 12px 16px;
-    transition: all .5s linear;
 }
 
 .popular_itmes_gridcardright_btn p{

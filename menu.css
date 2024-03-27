@@ -23,6 +23,18 @@ header{
     position: fixed;
     z-index: 999;
 }
+.menu {
+    color: red;
+}
+.menu:hover {
+    color: blue;
+}
+.menu:hover .submenu {
+    background-color: green; /* Change this to the desired background color */
+}
+.submenu {
+    background-color: red;
+}
 
 .logo{
 
@@ -162,6 +174,7 @@ transition: all .3s;
     align-items: center;
     gap: 27px;
     position: relative;
+    padding-bottom: 30px;
 }
 
 .main_section_2_fooddetail{
@@ -228,16 +241,14 @@ transition: all .3s;
     color: #0d6efd;
     
 }
-.traditional_box_grid{
-    position: relative;
-}
+
+
 .traditional_boxgrid_card{
     width: 450px;
+
     /* height: 537px; */
     padding: 0 12px;
     margin-bottom: 20px;
-    margin-top: 30px;
-    margin-left: 15px;
     background-color:white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -249,10 +260,9 @@ transition: all .3s;
 }
 
 .traditional_boxgridcard_top img{
-    /* width: 105%; */
+    
    padding-right: 10px;
     overflow: hidden;
-    /* height: 100%; */
 }
 
 .traditional_boxgridcardtop_absolut{
@@ -279,10 +289,9 @@ transition: all .3s;
     padding: 8px 10px;
     background-color: #000929cc;
     border-radius:6px;
-    font-size: 80%;
+    font-size: 16px;
     color: white;
     font-weight: 700;
-    line-height: 150%;
 }
 
 .traditional_boxgridcard_description{
@@ -290,11 +299,10 @@ transition: all .3s;
 }
 
 .grid_card_price_cost p{
-    font-size: 120%;
+    font-size: 24px;
     color: #f01543;
     font-weight: 800;
-    line-height: 150%;
-    letter-spacing: -1px;
+
 }
 
 .grid_card_price_reytings svg{
@@ -309,9 +317,8 @@ transition: all .3s;
 }
 
 .grid_card_price_reytings p{
-    font-size: 80%;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 150%;
 }
 
 .traditional_boxgridcard_price{
@@ -326,14 +333,9 @@ transition: all .3s;
 }
 
 .traditional_boxgridcard_tittle a{
-    font-size: 120%;
-    text-decoration: none;
+    font-size: 24px;
     color: #000929;
-    font-style: normal;
     font-weight: 700;
-    line-height: 150%;
-    letter-spacing: -.24px;
-    transition: all .3s;
 }
 
 .grid_card_tittle_box{
@@ -347,7 +349,6 @@ transition: all .3s;
 .grid_card_tittle_box p{
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
     color: #4d5461;
 }
 
@@ -365,6 +366,7 @@ transition: all .3s;
 }
 
 .traditional_box_grid{
+    padding-left: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(448px,1fr));
 }
@@ -382,15 +384,12 @@ transition: all .3s;
     height: 56px;
     padding: 13px 32px;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    letter-spacing: -.1px;
     text-align: center;
     border-radius: 10px;
     background-color: #f01543;
     color: white;
 }
-
 .third_section_button a{
    
     background-color: #f01543;
